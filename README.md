@@ -1,6 +1,12 @@
 # kafka-centos
 
 
+This is helpfile for install Kafka and Zookeeper 
+
+Some of the files as to bee updated, like versions etc.
+
+
+
 ## Configuration of Kafka Server 
 
 vi /opt/kafka/config/server.properties
