@@ -16,7 +16,7 @@ zookeeper.connect=localhost:2181
 
 vi /opt/zookeeper/conf/zoo.cfg
 
-tickTime=2000
+tickTime=2000 \n
 initLimit=10
 syncLimit=5
 clientPort=2181
