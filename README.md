@@ -58,3 +58,10 @@ ClientCnxns=60
 #autopurge.purgeInterval=1
 ```
 
+## Kafka Documentation
+
+```
+https://kafka.apache.org/documentation/
+```
+
+
