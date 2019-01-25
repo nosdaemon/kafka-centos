@@ -5,11 +5,22 @@ This is helpfiles for install Kafka and Zookeeper
 
 Some of the files as to bee updated, like versions etc.
 
+## Configuration for java
+vi /etc/profile
+
+Add:
+
+```
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64/jre"
+```
+
 
 
 ## Configuration of Kafka Server 
 
 vi /opt/kafka/config/server.properties
+
+Change:
 
 ```
 # Delete Topics (only test env)
@@ -19,9 +30,13 @@ broker.id=0
 zookeeper.connect=localhost:2181
 ```
 
+
+
 ## Configuration of Zookeeper Server
 
 vi /opt/zookeeper/conf/zoo.cfg
+
+Change
 
 ```
 tickTime=2000
