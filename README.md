@@ -1,7 +1,7 @@
 # kafka-centos
 
 
-This is helpfile for install Kafka and Zookeeper 
+This is helpfiles for install Kafka and Zookeeper 
 
 Some of the files as to bee updated, like versions etc.
 
@@ -19,7 +19,7 @@ broker.id=0
 zookeeper.connect=localhost:2181
 ```
 
-## Configuration of ZookeeperServer
+## Configuration of Zookeeper Server
 
 vi /opt/zookeeper/conf/zoo.cfg
 
